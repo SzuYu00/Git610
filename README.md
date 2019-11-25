@@ -15,3 +15,4 @@ The directories are a little redundant in the repository but everything essentai
 
 Feature Notes:
 News feed is set to request every 5 seconds, and set to only render the top 3 articles instead of the full 10 headlines. However the google news API doesn't seem to have such frequent headline updates, therefore it does not get new feed every 5 seconds. The requests however, can still be seen within the network activity.
+The actually API key for News feed within file "src/components/newsAPI/newsAPI.js" has been replaced by API_KEY, replace it with an active key to obtain functionality (will be provided within submission text).
