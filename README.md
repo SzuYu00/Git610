@@ -11,7 +11,7 @@ Required setups starts with:
       npm start
     From the terminal
  
-The directories are a little redundant in the repository but everything essentail should be included within the my-app directory. However, for some reason Guthub has the "node_modules" directory added to the gitignore list. Therefore it is neccesary to execute command "npm install" once within the folder where all the src directory and public directory are.  
+The directories are a little redundant in the repository but everything essentail should be included within the my-app directory. However, for some reason Guthub has the "node_modules" directory added to the gitignore list. Therefore it is neccesary to execute command "npm install" once within the folder where all the src directory and public directory exist.  
 
 Feature Notes:
 News feed is set to request every 5 seconds, and set to only render the top 3 articles instead of the full 10 headlines. However the google news API doesn't seem to have such frequent headline updates, therefore it does not get new feed every 5 seconds. The requests however, can still be seen within the network activity.
