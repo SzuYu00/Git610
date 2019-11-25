@@ -10,7 +10,7 @@ constructor(props){
 }
 
 fetchData(){
-  var url = 'https://newsapi.org/v2/top-headlines?sources=google-news&apiKey=ec1e7bc3658049b9b448396681f16680';
+  var url = 'https://newsapi.org/v2/top-headlines?sources=google-news&apiKey=API_KEY';
   var req = new Request(url);
   fetch(req)
   .then((response) =>{
